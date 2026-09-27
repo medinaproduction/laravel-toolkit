@@ -1,4 +1,12 @@
-# Laravel Storyblok Changelog
+# Laravel Toolkit Changelog
+
+## 2.0.0
+#### 2026-09-27
+
+- Requires Laravel 13 and PHP 8.3 or later. Tested on PHP 8.3, 8.4 and 8.5
+- Dropped support for Laravel 8 to 11 and PHP 8.1 and 8.2. Stay on 1.x for those
+- Tests are no longer autoloaded in projects that install the package
+- Added tests for VirtualModel, Timer, DividerHelper, TreeHelper and the service provider
 
 ## 1.0.6
 #### 2022-12-07

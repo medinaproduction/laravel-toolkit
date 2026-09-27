@@ -1,22 +1,17 @@
 # Laravel Toolkit
 This package is designed to help with general tools in MedinaProduction Laravel projects.
 
-## Simple usage
-To use this package, follow these steps:
-1. In your projects `composer.json` file, add the following:
-```
-"repositories": [
-    ...
-    {
-        "type": "vcs",
-        "url": "git@gitlab.com:medinaproduction/laravel-toolkit.git"
-    }
-]
-```
+## Requirements
 
-2. In the terminal for your project, write the following:
+| Version | Laravel | PHP |
+|---|---|---|
+| 2.x | 13 | 8.3, 8.4, 8.5 |
+| 1.x | 8 to 11 | 8.1 or later |
+
+## Simple usage
+Install the package from Packagist:
 ```
-composer require medinaproduction/laravel-toolkit`
+composer require medinaproduction/laravel-toolkit
 ```
 
 
@@ -43,7 +38,7 @@ composer require mnsami/composer-custom-directory-installer
     ...
     {
         "type": "vcs",
-        "url": "git@gitlab.com:medinaproduction/laravel-toolkit.git"
+        "url": "git@github.com:medinaproduction/laravel-toolkit.git"
     }
 ]
 ```
